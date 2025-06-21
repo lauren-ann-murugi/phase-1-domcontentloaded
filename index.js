@@ -1,1 +1,12 @@
-// Your code goes here
+
+// create an eventlistener
+
+document.addEventListener("DOMContentLoaded", function() {
+  const paragraph = document.querySelector('p');
+  paragraph.textContent = "This is really cool!";
+});
+
+
+
+
+
